@@ -54,7 +54,7 @@ The project is organized as follows:
 End-to-end-Text-Summarizer/
 │
 ├── src/
-│   └── {project_name}/
+│   └── textSummarizer/
 │       ├── __init__.py                      # Initialization of the project package
 │       ├── components/
 │       │   ├── __init__.py                  # Component initialization
