@@ -95,7 +95,7 @@ End-to-end-Text-Summarizer/
 └── README.md                               # Project documentation
 ```
 
-- **`src/{project_name}/`**: The main source code directory where all the core project files are located.
+- **`src/textSummarizer/`**: The main source code directory where all the core project files are located.
 - **`components/`**: Contains the logic for components like data ingestion, transformation, and model training (if applicable).
 - **`pipeline/`**: Contains scripts that define the text summarization pipeline, handling text input and output flow.
 - **`exception.py`**: Custom exceptions for error handling.
@@ -119,7 +119,7 @@ Once the dependencies are installed, you can start the application by running th
 python app.py
 ```
 
-This will start a local server (usually at `http://localhost:8501`), allowing users to interact with the text summarization model via a simple web interface.
+This will start a local server (usually at `http://localhost:8080`), allowing users to interact with the text summarization model via a simple web interface.
 
 ---
 
