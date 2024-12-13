@@ -161,7 +161,7 @@ print(f"Summary: {summary}")
 ## **Usage**
 
 1. **Run the app**:
-   - After starting the app using `python app.py`, open your browser and go to the **app's URL** (usually `http://localhost:8501`).
+   - After starting the app using `python app.py`, open your browser and go to the **app's URL** (usually `http://localhost:8080`).
    
 2. **Input Text**:
    - In the provided text box, input the text or document you want to summarize.
