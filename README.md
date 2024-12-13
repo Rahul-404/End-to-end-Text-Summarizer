@@ -55,18 +55,37 @@ End-to-end-Text-Summarizer/
 │
 ├── src/
 │   └── textSummarizer/
-│       ├── __init__.py                      # Initialization of the project package
+│       ├── __init__.py                     # Initialization of the project package
 │       ├── components/
-│       │   ├── __init__.py                  # Component initialization
+│       │   ├── __init__.py                 # Component initialization
 │       │   ├── data_ingestion.py           # Data ingestion logic (if needed)
 │       │   ├── data_transformation.py      # Data preprocessing (text cleaning, etc.)
-│       │   ├── summarizer.py               # Fine-tuned text summarizer model
+|       |   ├── data_validation.py
+|       |   ├── data_evaluation.py
+|       |   └── model_trainer.py            # Fine-tuned text summarizer model
 │       ├── pipeline/
 │       │   ├── __init__.py                 # Pipeline initialization
-│       │   ├── summarization_pipeline.py   # Text summarization pipeline logic
+│       │   └── summarization_pipeline.py   # Text summarization pipeline logic
+|       ├── config/
+|       |   ├── __init__.py
+|       |   └── configuration.py
+|       ├── constants/
+|       |   └── __init__.py
+|       ├── entity/
+|       |   └── __init__.py
+|       ├── logging/
+|       |   └── __init__.py
+|       ├── pipeline/
+|       |   ├── __init__.py
+|       |   ├── prediction.py
+|       |   ├── stage_01_data_ingestion.py
+|       |   ├── stage_02_data_validation.py
+|       |   ├── stage_03_data_transformation.py
+|       |   ├── stage_04_model_trainer.py
+|       |   └── stage_05_model_evaluation.py
 │       ├── exception.py                    # Custom exceptions
 │       ├── logger.py                       # Logging utilities
-│       ├── utils.py                        # Utility functions (e.g., metrics, data loaders)
+│       └── utils.py                        # Utility functions (e.g., metrics, data loaders)
 ├── app.py                                  # Main script for running the app
 ├── Dockerfile                              # Docker configuration to containerize the app
 ├── requirements.txt                        # Python dependencies
