@@ -141,7 +141,7 @@ The text summarizer uses a Hugging Face pre-trained model fine-tuned on domain-s
 2. **Model Fine-Tuning**: The model is fine-tuned on domain-specific data to improve summarization quality.
 3. **Inference**: The fine-tuned model generates the summary for the given input text.
 
-Example of using the summarizer:
+<!-- Example of using the summarizer:
 
 ```python
 from src.{project_name}.components.summarizer import generate_summary
@@ -154,7 +154,7 @@ They are widely used across industries, including finance, healthcare, and marke
 
 summary = generate_summary(input_text)
 print(f"Summary: {summary}")
-```
+``` -->
 
 ---
 
