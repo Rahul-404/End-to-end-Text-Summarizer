@@ -83,9 +83,10 @@ End-to-end-Text-Summarizer/
 |       |   ├── stage_03_data_transformation.py
 |       |   ├── stage_04_model_trainer.py
 |       |   └── stage_05_model_evaluation.py
-│       ├── exception.py                    # Custom exceptions
-│       ├── logger.py                       # Logging utilities
-│       └── utils.py                        # Utility functions (e.g., metrics, data loaders)
+|       ├── utils
+|       |   ├── __init__.py
+|       |   └── common.py
+│       └── __init__.py                       
 ├── app.py                                  # Main script for running the app
 ├── Dockerfile                              # Docker configuration to containerize the app
 ├── requirements.txt                        # Python dependencies
